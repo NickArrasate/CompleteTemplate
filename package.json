@@ -23,5 +23,8 @@
     "jshint": "^2.9.2",
     "uglify": "^0.1.5",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "google-maps": "^3.2.1"
   }
 }

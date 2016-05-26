@@ -24,7 +24,7 @@ var lib = require('bower-files')({
 });
 
 gulp.task('cssBuild', function() {
-  return gulp.src(['scss/*.scss'])
+  return gulp.src(['./scss/*.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(sourcemaps.write())
